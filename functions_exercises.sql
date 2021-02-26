@@ -12,6 +12,13 @@ WHERE hire_date LIKE '199%'
   AND birth_date LIKE '%12-25%'
 ORDER BY birth_date, hire_date DESC;
 
+SELECT *, DATEDIFF(curdate(), hire_date)
+FROM employees
+WHERE year(hire_date) BETWEEN 1990 AND 1999
+  AND month(birth_date) = 12
+AND day(birth_date) = 25
+ORDER BY birth_date, hire_date DESC;
+
 
 # # Ordered by first name then last name.
 # SELECT *
