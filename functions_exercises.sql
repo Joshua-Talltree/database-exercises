@@ -1,10 +1,16 @@
 USE employees;
 
 # Order by first name with last.
-SELECT CONCAT_WS('-', first_name, last_name)
+SELECT CONCAT_WS(' ', first_name, last_name)
 FROM employees
 WHERE last_name LIKE 'E%' AND last_name LIKE '%E';
 
+# Ordered by DESC hire_date
+SELECT *, DATEDIFF(curdate(), hire_date)
+FROM employees
+WHERE hire_date LIKE '199%'
+  AND birth_date LIKE '%12-25%'
+ORDER BY birth_date, hire_date DESC;
 
 
 # # Ordered by first name then last name.
@@ -32,9 +38,4 @@ WHERE last_name LIKE 'E%' AND last_name LIKE '%E';
 # WHERE first_name IN ('Irena', 'Vidya', 'Maya')
 # ORDER BY last_name, first_name DESC;
 #
-# # Ordered by DESC hire_date
-# SELECT *
-# FROM employees
-# WHERE hire_date LIKE '199%'
-#   AND birth_date LIKE '%12-25%'
-# ORDER BY birth_date, hire_date DESC;
+
