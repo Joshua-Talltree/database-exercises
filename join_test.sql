@@ -37,7 +37,7 @@ VALUES ('bob', 'bob@example.com', 1),
        ('kelly', 'kelly@example.com', 3),
        ('don', 'don@example.com', 2),
        ('bill', 'bill@example.com', 1),
-       ('ken', 'ken@example.com', null)
+       ('ken', 'ken@example.com', null);
 
 SELECT users.name as user_name, roles.name as role_name
 FROM users
