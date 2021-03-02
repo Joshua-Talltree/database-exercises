@@ -21,8 +21,9 @@ VALUES ('Led Zeppelin', 'Led Zeppelin IV', '1971', 'Hard rock, heavy metal, folk
        ('Bruce Springsteen', 'Born in the U.S.A.', '1984', 'Heartland rock', '19.6'),
        ('Dire Straits', 'Brothers in Arms', '1985', 'Roots rock, blues rock, soft rock', '17.7'),
        ('James Horner', 'Titanic: Music from the Motion Picture', '1997', 'Film score', '18.1'),
-       ('Nirvana', 'Nevermind','1991', 'Grunge, alternative rock', '16.7'),
+       ('Nirvana', 'Nevermind', '1991', 'Grunge, alternative rock', '16.7'),
        ('Pink Floyd', 'The Wall', '1979', 'Progressive rock', '18.7'),
        ('Santana', 'Supernatural', '1999', 'Latin rock', '20.5'),
        ('Guns N'' Roses', 'Appetite for Destruction', '1987', 'Hard rock', '21.9'),
-       ('Elton John', 'Goodbye Yellow Brick Road', '1973', 'rock, pop rock glam rock', '8.5');
+       ('Elton John', 'Goodbye Yellow Brick Road', '1973', 'rock, pop rock glam rock', '8.5')
+
